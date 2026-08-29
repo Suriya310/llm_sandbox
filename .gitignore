@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+sandbox.db
+server.log
+*.bak
+*.backup
