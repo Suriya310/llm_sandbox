@@ -8,7 +8,7 @@ class Settings(BaseSettings):
     GEMINI_MODEL: str = "gemini-3.6-flash"
 
     # Database configuration
-    DATABASE_URL: str = "sqlite+aiosqlite:///./sandbox.db"
+    DATABASE_URL: str = "sqlite+aiosqlite:////tmp/sandbox.db"
 
     # Rate limiting: requests per minute per IP
     RATE_LIMIT_REQUESTS: int = 5
